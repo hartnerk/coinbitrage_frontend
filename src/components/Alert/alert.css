@@ -1,0 +1,28 @@
+#alert-title{
+    float: right;
+    float: left;
+}
+
+.AlertHeader{
+    display: flex;
+}
+
+.itemcenter {
+    flex: 0 1 auto;
+    width: 150px;
+    position: absolute;             /* new */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+.itemright {
+    flex: 0 1 auto;
+    width: 100px;
+    margin-left: auto;              /* new */
+}
+
+.itemleft{
+    flex: 0 1 auto;
+    width: 100px;
+    margin-right: auto;              /* new */
+}

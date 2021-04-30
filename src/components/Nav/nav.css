@@ -1,0 +1,27 @@
+.masterNavDiv{
+    margin-top: 1em;
+    display: flex;
+}
+
+.itemright {
+    flex: 0 1 auto;
+    width: 100px;
+    margin-left: auto; 
+    font-weight: bold;
+
+}
+
+.itemleft{
+    flex: 0 1 auto;
+    width: 100px;
+    margin-right: auto;  
+    font-weight: bold;         
+}
+
+.fullwidth{
+    flex: 0 1 auto;
+    width: 100%;
+}
+
+
+
